@@ -12,6 +12,7 @@ body {
   align-items: center;
 
   background-color: #fbf4f4;
+  padding: 32px;
 }
 
 h1 {
@@ -59,4 +60,24 @@ button {
   color: #ffffff;
 
   cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  gap: 16px;
+  margin: 18px 0;
+
+  flex-wrap: wrap;
+}
+
+.cards a {
+  width: 100px;
+  height: 100px;
+  background-color: #d7eff9;
+  border-radius: 12px;
+  color: #0095e4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
